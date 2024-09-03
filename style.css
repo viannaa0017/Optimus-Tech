@@ -1,0 +1,274 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px ;
+    color: #667085;   
+}
+
+header .container {
+    width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu {
+    margin-left: 119px;
+    margin-right: 380px;   
+}
+
+header .menu nav {
+    display: flex;
+    gap: 32px;    
+}
+
+header .menu nav a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #667085;
+    text-decoration: none;   
+}
+
+header .botoes {
+    display: flex;
+    gap: 12px;
+}
+
+header .botoes a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #667085;
+    text-decoration: none;
+    padding: 10px 18px;
+}
+
+header .botoes button {
+    border-radius: 8px;
+    background-color: #8E2424;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border: none;
+}
+
+h1 {
+    font-size: 20px;
+    color: #8E2424;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #101828;
+    text-align: center;
+}
+
+.container .paragrafo {
+    text-align: center;
+    width: 792px;
+    padding: 24px;
+    margin: auto;
+    color: #667085;
+}
+
+.linha h3 {
+    color: #8E2424;
+    font-size: 60px;
+}
+
+.linha h4 {
+    color: #101828;
+}
+
+.linha p {
+    color: #667085;
+}
+
+.linha {
+    display: flex;
+    margin: 24px;
+    justify-content: space-evenly;
+    padding-bottom: 192px;
+}
+
+.texto {
+    width: 284px;
+}
+
+.tabua .titulo-vagas {
+    color: #8E2424;
+    font-size: 14px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #fbf1f1;
+    text-align: center;
+    width: 125px;
+    height: 28px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;    
+}
+
+.tabua h2 {
+    font-size: 36px;
+    color: #101828;
+}
+
+.tabua p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #667085;
+    margin-top: 20px;
+}
+
+.cadeira {
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+}
+
+.mouse {
+    font-size: 20px;
+    color: #101828;
+    margin-left: 267px;
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+
+.tv h3 {
+    color: #101828;
+    font-size: 18px;
+}
+
+.tv p {
+    color: #667085;   
+}
+
+.tv {
+    border-radius: 16px;
+   width: 768px;
+   border: 1px solid;
+   height: 136px;
+   padding: 24px;
+   line-height: 46px;
+   text-align: left;
+   margin-left: 267px;
+    border-color: #667085;
+    margin-top: 24px;
+}
+
+.teclado {
+    color: #101828;
+    margin-left: 262px;
+    font-size: 20px;   
+}
+
+.bomba h1 {
+    font-size: 14px;
+    padding-top: 64px;
+    color: #8E2424;
+    margin-top: 96px;
+}
+
+.bomba h2 {
+    font-size: 36px;
+    color: #101828;
+    text-align: center; 
+}
+
+.bomba img {
+    text-align: center;
+    margin-left: 48.2%;  
+}
+
+.bomba h3 {
+    text-align: center;
+    color: #101828;
+    font-size: 16px;
+}
+
+.bomba p {
+    text-align: center;
+    color: #667085;
+    font-size: 14px;  
+} 
+
+.bomba {
+    width: 1216px;
+    height: 404px;
+    background:  #fff9f9;
+    margin: 0 auto;
+    border-radius: 16px;        
+}
+
+.pc h1 {
+    font-size: 36px;
+    color: #101828;
+}
+.pc h2 {
+    font-size: 20px;
+    color: #667085;
+    line-height: 30px;
+}
+
+
+
+.pc p {
+    font-size: 16px;
+    color: #667085;
+    text-align: center;
+}
+
+.pc {
+    width: 1464px;
+    height: 430px;
+    background: #D0D5DD;
+    margin-top: 96px;
+    padding-top: 96px;  
+}
+
+.pc p {
+    margin-top: 32px;
+}
+
+.cs {
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 42px;
+    padding-bottom: 30px;  
+}
+
+.cs input {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 360px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.cs button {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 116px;
+    background-color: #8E2424;
+    text-decoration: none;
+    padding: 10px 18px;
+    color: white;
+    border: 0;
+    border-radius: 8px;  
+}
